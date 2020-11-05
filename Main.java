@@ -94,7 +94,7 @@ public class Main {
         } else if (eleccion == 2) {
             conversion = mi(velocidad);
             System.out.println("La velocidad de: " + velocidad + " mi equivale a: " + Math.round(conversion) + " km.");
-            System.out.println("Desea realizar otra operacion?");
+            System.out.println("Desea realizar otra operacion ?");
             System.out.println("1. Si");
             System.out.println("2. No");
             eleccion = r.nextInt();
